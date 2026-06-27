@@ -1,0 +1,22 @@
+{
+  "name": "create-auth-challenge",
+  "version": "1.0.0",
+  "description": "Cognito Create Auth Challenge trigger for passwordless sign-in",
+  "type": "module",
+  "main": "index.mjs",
+  "private": true,
+  "engines": {
+    "node": ">=20"
+  },
+  "comment": "@aws-sdk/* v3 packages are provided by the nodejs20.x runtime and are NOT bundled. Only the redis client (used when challenge_store=redis) must be installed before packaging.",
+  "dependencies": {
+    "redis": "^4.6.0"
+  },
+  "peerDependencies": {
+    "@aws-sdk/client-dynamodb": "^3.0.0",
+    "@aws-sdk/lib-dynamodb": "^3.0.0",
+    "@aws-sdk/client-sesv2": "^3.0.0",
+    "@aws-sdk/client-sns": "^3.0.0",
+    "@aws-sdk/client-secrets-manager": "^3.0.0"
+  }
+}

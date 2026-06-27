@@ -1,0 +1,11 @@
+{
+  "name": "define-auth-challenge",
+  "version": "1.0.0",
+  "description": "Cognito Define Auth Challenge trigger for passwordless sign-in",
+  "type": "module",
+  "main": "index.mjs",
+  "private": true,
+  "engines": {
+    "node": ">=20"
+  }
+}

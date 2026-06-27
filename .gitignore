@@ -1,0 +1,33 @@
+# Terraform
+**/.terraform/*
+*.tfstate
+*.tfstate.*
+*.tfplan
+crash.log
+crash.*.log
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+.terraformrc
+terraform.rc
+.terraform.lock.hcl
+
+# Build artifacts produced by the archive_file data sources
+.build/
+*.zip
+
+# Node / Lambda dependencies
+node_modules/
+npm-debug.log*
+
+# Local & secret tfvars
+*.tfvars
+*.tfvars.json
+!example.tfvars
+
+# Editor / OS
+.DS_Store
+.idea/
+.vscode/
+*.swp
