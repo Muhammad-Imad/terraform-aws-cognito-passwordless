@@ -6,10 +6,6 @@
 # cognito.tf, lambda.tf and iam.tf to keep each concern reviewable in isolation.
 ###############################################################################
 
-data "aws_caller_identity" "current" {}
-
-data "aws_region" "current" {}
-
 ###############################################################################
 # Plan-time guard rails
 #
